@@ -5,7 +5,7 @@ FROM alpine:3.10
 COPY entrypoint.sh /entrypoint.sh
 
 # add executable permissions to entrypoint file
-RUN chmod +x entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 # Code file to execute when the docker container starts up (èntrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
