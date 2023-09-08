@@ -10,7 +10,7 @@ Esta action imprime "Hola Mundo" o "Hola" + el nombre de la persona al log.
 
 ## Outputs
 
-### `time``
+### `time`
 
 La fecha en la que te saludé.
 
